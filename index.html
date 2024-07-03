@@ -24,10 +24,11 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
         <div class="container">
-            <a class="navbar-brand roboto-light" href="#">
+            <a class="navbar-brand" href="#">
                 <img src="assets/img/viajes.svg" alt="Viajes Chile" style="height: 50px; width: auto;">Viajes Chile
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -36,7 +37,7 @@
                         <a class="nav-link active cobin-regular font-16" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active cobin-regular font-16" href="#">Quienes Somos</a>
+                        <a class="nav-link active cobin-regular font-16" href="#">Quiénes Somos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active cobin-regular font-16" href="#">Destacados</a>
@@ -48,7 +49,70 @@
             </div>
         </div>
     </nav>
-    
+
+    <!-- Carrusel -->
+    <section class="container">
+        <div class="row">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quienes Somos -->
+    <section class="container bg-black">
+        <div class="row">
+            <div class="py-3 text-center bg-black">
+                <h2 class="color-white fs-4">¿Quiénes Somos?</h2>
+                <hr />
+            </div>
+            <!-- Parrafo 1 -->
+            <div class="mt-2 col-12 col-md-4 col-xl-4">
+                <i class="fas fa-plane color-white"></i>
+                <p class="color-white roboto-light fs-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum fuga alias sint sit facere doloremque,
+                    consequuntur eius atque maxime sequi ducimus explicabo! A quo delectus voluptatibus distinctio fugit
+                    culpa eos.</p>
+            </div>
+
+            <!-- Parrafo 2 -->
+            <div class="mt-2 col-12 col-md-4 col-xl-4">
+                <p class="color-white roboto-light fs-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum fuga alias sint sit facere doloremque,
+                    consequuntur eius atque maxime sequi ducimus explicabo! A quo delectus voluptatibus distinctio fugit
+                    culpa eos.</p>
+                    <i class="fa-solid fa-mountain color-white"></i>
+            </div>
+
+            <!-- Parrafo 3 -->
+            <div class="mt-2 col-12 col-md-4 col-xl-4">
+                <i class="fa-solid fa-route color-white"></i>
+                <p class="color-white roboto-light fs-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum fuga alias sint sit facere doloremque,
+                    consequuntur eius atque maxime sequi ducimus explicabo! A quo delectus voluptatibus distinctio fugit
+                    culpa eos.</p>
+
+        </div>
+    </section>
+
+
 
 
 
