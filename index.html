@@ -49,41 +49,40 @@
             </div>
         </div>
     </nav>
-
+    
     <!-- Carrusel -->
-    <section class="container">
-        <div class="row">
-            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
+    <section class="container-fluid carousel-container">
+        <div class="row h-100">
+            <div id="carouselExample" class="carousel slide h-100" data-bs-ride="carousel">
+                <div class="carousel-inner h-100">
+                    <div class="carousel-item active h-100">
                         <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item h-100">
                         <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item h-100">
                         <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
         </div>
-    </section>
+    </section
+    
 
-    <!-- Quienes Somos -->
+    <!-- Parrafos-Quienes Somos -->
     <section class="container">
         <div class="row">
             <div class="py-3 text-center">
-                <h2 class="fs-4">¿Quiénes Somos?</h2>
+                <h2 class="fs-2">¿Quiénes Somos?</h2>
                 <hr />
             </div>
             <!-- Parrafo 1 -->
@@ -108,13 +107,14 @@
                 <p class="roboto-light fs-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum fuga alias sint sit facere doloremque,
                     consequuntur eius atque maxime sequi ducimus explicabo! A quo delectus voluptatibus distinctio fugit
                     culpa eos.</p>
+            </div>
         </div>
     </section>
 
-    <!-- Cards -->
+    <!-- Destacados-Cards -->
     <section class="container">
         <div class="text-center px-2 py-5">
-          <h2 class="fs-4">Destacados</h2>
+          <h2 class="fs-2">Destacados</h2>
           <hr />
         </div>
         <div class="row">
@@ -166,7 +166,49 @@
         </div>
       </section>
 
+    <!-- Contacto-formulario -->
+    <section class="px-5 w-100">
+        <div class="row">
+            <div class="col pt-5">
+                <h2 class="text-center fs-2">Contacto</h2>
+                <hr />
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                  </div>
 
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                
+                <div class="mb-5 py-3">
+                    <button type="button" class="btn btn-primary text-white btn-50">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+        <footer>
+            <div class="col-12">
+                <span>Viajes Chile</span>
+                <div class="social-icons">
+                    <a href="https://github.com"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                    <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </footer>
+
+
+    
 
 
 

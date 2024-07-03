@@ -14,6 +14,10 @@
     font-style: normal;
   }
 
+  body {
+    padding-top: 56px; /* Ajusta este valor según la altura de tu navbar */
+  } 
+
   .color-white {
     color: white;
   }
